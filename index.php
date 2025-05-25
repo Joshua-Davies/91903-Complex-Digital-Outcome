@@ -22,15 +22,22 @@
 
 <link rel="stylesheet" href="css/layout.css">
 <link rel="stylesheet" href="css/navigation.css">
+
 </head>
 
 <body>
 
 <div class="wrapper">
-<div class="banner"> Banner goes here
-</div>
+    <div class="logo">
+        <a href="index.php"><img class="responsive" src="images/logo.webp" alt="s"></a>
+    </div>
 
-<div class="box nav">
+    <div class="top-title">
+        <h2>Save the Canopy</h2>
+    </div>
+
+
+<div class="header">
     <div class="menu-header">
         <i class="fa fa-bars"></i>
         <div class="menu-content">
@@ -57,6 +64,17 @@ Main content goes here
 <div class="box footer">
 CC Joshua Davies 20XX
 </div> <!--/footer -->
-
+    <script src="js/j_query_min.js"></script>
+    <script>
+       
+        $('.dropbtn').click(function () {
+            $('.dropdown').toggleClass('display');
+        }
+        )
+        $('.fa-bars').click(function () {
+            $('.menu-content').toggle();
+        }
+        )
+    </script>
 </body>
 </html> 
