@@ -81,6 +81,19 @@ h1, h2, h3, h4 {
     height: auto;
 }
 
+.info-text{
+    display: flex;
+    flex-direction: column;
+}
+
+ul.text {
+    list-style: disc;
+    display: list-item;
+    border: none;
+    margin-left: 20px;
+    
+}
+
 /* Navigation Links */
 .nav a {font-weight: bold;}
 .nav a:link, .nav a:visited {color: #AA0000;} /*dark red */
@@ -93,6 +106,20 @@ a:link{color: #AA0000;} /*dark_red */
 a:visited{color: #111177;} /* dark blue */
 a:hover{color: #000;}    /* Black*/
 
+@media(max-width: 767px)
+{
+    .wrapper{
+        display: grid;
+        grid-template-columns: 100px 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "logo top-title"
+            "header header"
+            "main main"
+            "footer footer";
+            grid-gap: 0;
+    }
+}
 
 
 
