@@ -1,0 +1,43 @@
+ul, .dropdown {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    display: flex;
+
+}
+
+ul li{
+    width: 100%;
+    position: relative;
+}
+
+li a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.dropdown {
+    position: absolute;
+
+    width: 100%;
+    flex-wrap: wrap;
+    visibility: hidden;
+    transition: 0.3s;
+    left: 0;
+    z-index: 1;
+    background-color: rgb(233, 205, 228);
+}
+
+ul li:hover .dropdown{
+    visibility: visible;
+}
+
+.menu-header {
+    display: block;
+}
+
+.fa-bars {
+    display: none;
+}
