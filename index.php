@@ -42,7 +42,7 @@
         <i class="fa fa-bars"></i>
         <div class="menu-content">
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li><a class="dropbtn" href="#">Gallery <i class="fa fa-chevron-down"></i></a>
                     <ul class="dropdown">
                         <li><a class="nav" href="#">Gallery1</a></li>
@@ -52,24 +52,22 @@
                 </li>
 
                 <li><a href="#">About</a></li>
-                <li><a href="#">Links</a></li>
+                <li><a href="index.php?page=links">Links</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </div>
     </div>
 </div>
-<div class="box main">
-    <div class="info-text">
-        <h1>Home</h1>
-        <p>Welcome to our website dedicated to the preservation of the world's forests. Join us in our mission to protect these vital ecosystems.</p>
-        <ul class="text">
-            <li>Learn about the importance of forests</li>
-            <li>Discover ways to get involved</li>
-            <li>Support our conservation efforts</li>
-            <li>Explore our gallery of stunning forest images</li>
-        </ul>
-    </div>
-</div>
+ <?php
+    if (!isset($_REQUEST['page'])) {
+        include("home.php");
+    }
+    else {
+        $page=preg_replace('/[^0-9a-zA-Z]-/','',$_REQUEST['page']);
+        include("$page.php");
+    }
+?>
+
 <div class="box footer">
 CC Joshua Davies 20XX
 </div> <!--/footer -->
