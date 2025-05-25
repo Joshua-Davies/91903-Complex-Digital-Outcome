@@ -16,6 +16,7 @@ li a {
     text-decoration: none;
     padding: 10px;
     display: block;
+    color: #75a743;
 }
 
 .dropdown {
@@ -27,7 +28,7 @@ li a {
     transition: 0.3s;
     left: 0;
     z-index: 1;
-    background-color: rgb(233, 205, 228);
+    background-color: #75a743;
 }
 
 ul li:hover .dropdown{
@@ -79,14 +80,17 @@ ul li:hover .dropdown{
     }
 
     .fa-bars {
-        color: orange;
+        color: #75a743;
         display: inline;
-        border: 1px solid rgb(126, 126, 126);
+        border: 1px solid #75a743;
+        background-color: white;
         padding: 5px 10px;
-        border-radius: 3px;
         position: absolute;
         right: 20px;
         top: 20px;
-
     }
+}
+
+a.nav{
+    color: white;
 }
