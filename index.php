@@ -29,7 +29,7 @@
 
 <div class="wrapper">
     <div class="logo">
-        <a href="index.php"><img class="responsive" src="images/logo.webp" alt="s"></a>
+        <a href="index.php"><img class="pixelated responsive" src="images/logo.webp" alt="s"></a>
     </div>
 
     <div class="top-title">
