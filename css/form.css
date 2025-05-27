@@ -1,0 +1,54 @@
+textarea, input {
+    font-family: 'lato', 'sans-serif';
+    font-size: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.form-text{
+    width: 100%;
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+textarea {
+    width: 90%;
+    height: 150px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+}
+
+button {
+    padding: 20px;
+    background-color: #75a743;
+    margin: auto;
+    width: 90%;
+    box-shadow:
+        inset 2px 2px 0 rgba(255, 255, 255,.5),
+        inset -2px -2px 0 rgba(0, 0, 0,.5);
+
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    box-shadow:
+        inset -2px -2px 0 rgba(255, 255, 255,.5),
+        inset 2px 2px 0 rgba(0, 0, 0,.5);
+        background-color: #6b993d;
+}
+
+@media(max-width: 900px) {
+    .form-text {
+        width: 100%;
+    }
+}
+
+.small-button {
+    padding: 10px;
+    width: auto;
+}
