@@ -56,7 +56,6 @@ ul li:hover .dropdown{
 
     .dropdown {
         position: relative;
-        padding-left: 20px;
         width: auto;
         left: 0;
         top: 0;
@@ -92,4 +91,8 @@ ul li:hover .dropdown{
 
 a.nav{
     color: white;
+}
+
+a.nav:hover {
+    background-color: #6b993d;
 }
