@@ -1,5 +1,9 @@
-
 <!DOCTYPE HTML>
+
+<?php
+    include("functions.php");
+?>
+
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -23,6 +27,7 @@
 <link rel="stylesheet" href="css/layout.css">
 <link rel="stylesheet" href="css/navigation.css">
 <link rel="stylesheet" href="css/form.css">
+<link rel="stylesheet" href="css/gallery.css">
 
 </head>
 
@@ -46,7 +51,7 @@
                 <li><a href="index.php">Home</a></li>
                 <li><a class="dropbtn" href="#">Gallery <i class="fa fa-chevron-down"></i></a>
                     <ul class="dropdown">
-                        <li><a class="nav" href="#">Gallery1</a></li>
+                        <li><a class="nav" href="index.php?page=gallery1">Gallery1</a></li>
                         <li><a class="nav" href="#">Gallery2</a></li>
                         <li><a class="nav" href="#">Gallery3</a></li>
                     </ul>
@@ -72,17 +77,18 @@
 <div class="box footer">
 CC Joshua Davies 20XX
 </div> <!--/footer -->
+    <script src="js\simple-lightbox.min.js"></script>
     <script src="js/j_query_min.js"></script>
     <script>
-       
-        $('.dropbtn').click(function () {
-            $('.dropdown').toggleClass('display');
-        }
-        )
-        $('.fa-bars').click(function () {
-            $('.menu-content').toggle();
-        }
-        )
+    
+    var lightbox = new SimpleLightbox('.gallery a', { /* options if needed */ });
+
+    $('.dropbtn').click(function () {
+        $('.dropdown').toggleClass('display');
+    });
+    $('.fa-bars').click(function () {
+        $('.menu-content').toggle();
+    });
     </script>
 </body>
-</html> 
+</html>
