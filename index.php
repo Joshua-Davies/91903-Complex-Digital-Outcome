@@ -51,9 +51,8 @@
                 <li><a href="index.php">Home</a></li>
                 <li><a class="dropbtn" href="#">Gallery <i class="fa fa-chevron-down"></i></a>
                     <ul class="dropdown">
-                        <li><a class="nav" href="index.php?page=gallery1">Gallery1</a></li>
-                        <li><a class="nav" href="#">Gallery2</a></li>
-                        <li><a class="nav" href="#">Gallery3</a></li>
+                        <li><a class="nav" href="index.php?page=lifeintheforest">Life In The Forest</a></li>
+                        <li><a class="nav" href="index.php?page=destroyedforests">Destroyed Forests</a></li>
                     </ul>
                 </li>
 
@@ -75,7 +74,7 @@
 ?>
 
 <div class="box footer">
-CC Joshua Davies 20XX
+CC Joshua Davies 2025
 </div> <!--/footer -->
     <script src="js\simple-lightbox.min.js"></script>
     <script src="js/j_query_min.js"></script>
