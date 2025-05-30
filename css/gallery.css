@@ -1,14 +1,15 @@
 div.gallery {
-  border: 1px solid #ccc;
+  border: 3px solid #ffffff;
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+  border: 3px solid #75a743;
 }
 
 div.gallery img {
   width: 100%;
   height: auto;
+  display: block;
 }
 
 div.desc {
@@ -21,7 +22,7 @@ div.desc {
 }
 
 .responsive-gallery {
-  padding: 0 6px;
+  padding: 6px 6px;
   float: left;
   width: 24.99999%;
 }
