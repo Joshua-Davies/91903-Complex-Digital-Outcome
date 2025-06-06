@@ -2,6 +2,14 @@
 <div class="box main">
     <div class="info-text">
         <h1>About</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, laboriosam! Ad sapiente ex nemo, in laboriosam non aspernatur dolore cumque aliquid. Repudiandae eligendi aperiam itaque dicta, ducimus quia et ratione!</p>
+        <p>
+        Forest canopies are one of the most important parts of the environment, but they’re often ignored.
+
+        They’re home to over half of all forest species and play a big role in fighting climate change by storing carbon and keeping ecosystems balanced.
+
+        This site was made to focus on the canopy, what it is, why it matters, and how people can learn more about it.
+
+        Even small awareness can lead to change.
+        </p>
     </div>
 </div>
