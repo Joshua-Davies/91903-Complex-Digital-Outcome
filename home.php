@@ -1,3 +1,5 @@
+<!-- landing page and home of the site -->
+
 <div class="box main">
     <div class="info-text">
         <h1>Home</h1>

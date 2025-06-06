@@ -1,3 +1,4 @@
+<!-- about page used to display information about the site -->
 <div class="box main">
     <div class="info-text">
         <h1>About</h1>

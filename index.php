@@ -1,5 +1,8 @@
+<!-- main html file -->
+
 <!DOCTYPE HTML>
 
+<!-- include functions.php to use the make_gallery function -->
 <?php
     include("functions.php");
 ?>
@@ -14,12 +17,8 @@
 
 <title>Save the Canopy</title>
 
-<!-- Edit the link below / replace with your chosen google font -->
-<link href="https://fonts.googleapis.com/css?family Lato%7cUbuntu" rel="stylesheet">
-
-
-<!-- Edit the name of your style sheet 'foo' is not a valid name!! -->
-
+<!-- link stylesheets and fonts -->
+<link href="https://fonts.googleapis.com/css?familyLato%7cUbuntu" rel="stylesheet">
 
 <link rel="stylesheet" href="css/simple-lightbox.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -42,12 +41,12 @@
         <h2>Save the Canopy</h2>
     </div>
 
-
 <div class="header">
     <div class="menu-header">
         <i class="fa fa-bars"></i>
         <div class="menu-content">
             <ul>
+                <!-- Navigation links -->
                 <li><a href="index.php">Home</a></li>
                 <li><a class="dropbtn" href="#">Gallery <i class="fa fa-chevron-down"></i></a>
                     <ul class="dropdown">
@@ -63,6 +62,7 @@
         </div>
     </div>
 </div>
+<!--includes the page content here-->
  <?php
     if (!isset($_REQUEST['page'])) {
         include("home.php");
@@ -76,10 +76,13 @@
 <div class="box footer">
 CC Joshua Davies 2025
 </div> <!--/footer -->
+
+    <!-- script links-->
     <script src="js\simple-lightbox.min.js"></script>
     <script src="js/j_query_min.js"></script>
     <script>
     
+    // Initialize SimpleLightbox for the gallery
     var lightbox = new SimpleLightbox('.gallery a', { /* options if needed */ });
 
     $('.dropbtn').click(function () {

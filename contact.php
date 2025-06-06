@@ -2,7 +2,7 @@
     <div class="info-text form-text">
         <h1>Contact Us</h1>
         
-        <script type="text/javascript">var submitted=false;</script>
+        <script type="text/javascript">var submitted=false;</script> <!--This script is used to check if the form has been submitted, so we can redirect the user after submission.-->
 
         <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='index.php?page=form_success';}"></iframe>
 
