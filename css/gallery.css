@@ -1,3 +1,5 @@
+/* Gallery Stylesheet */
+
 div.gallery {
   border: 3px solid #ffffff;
 }
@@ -21,6 +23,7 @@ div.desc {
   box-sizing: border-box;
 }
 
+/* Responsive Styles for Gallery */
 .responsive-gallery {
   padding: 6px 6px;
   float: left;

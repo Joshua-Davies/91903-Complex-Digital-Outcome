@@ -43,6 +43,8 @@ ul li:hover .dropdown{
     display: none;
 }
 
+/* Responsive Styles */
+
 @media(max-width: 767px) {
 
     ul{
